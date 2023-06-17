@@ -1,10 +1,12 @@
 //index.js
-(async () => {
+require("dotenv").config();
+
+async function start(){
     const db = require("./db");
     console.log('Começou!');
 
     console.log('INSERT INTO CLIENTES');
-    const result = await db.insertCustomer({ nome: "Fernando", idade: 32, uf: "RS" });
+    const result = await db.insertCustomer({ nome: "Fernando", idade: 35, uf: "RS" });
     console.log(result.rowCount);
 
     console.log('UPDATE CLIENTES');
@@ -18,4 +20,6 @@
     console.log('SELECT * FROM CLIENTES');
     const clientes = await db.selectCustomers();
     console.log(clientes);
-})();
+}
+
+start();

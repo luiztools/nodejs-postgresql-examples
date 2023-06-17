@@ -1,10 +1,14 @@
-# nodejs-postgresql
-A simple CRUD in Node.js with PostgreSQL
+# nodejs-postgresql-examples
+A simple Node.js with PostgreSQL examples.
 
-Para ver o tutorial completo, acesse: https://www.luiztools.com.br/post/como-usar-nodejs-postgresql/
+See each Readme file for more instructions.
+
+## More
 
 Conheça meus livros de programação: https://www.luiztools.com.br/meus-livros
 
 Conheça meus cursos de programação: https://www.luiztools.com.br/meus-cursos
 
 Me siga nas redes sociais: https://about.me/luiztools
+
+Receba novidades no Telegram: https://t.me/luiznews

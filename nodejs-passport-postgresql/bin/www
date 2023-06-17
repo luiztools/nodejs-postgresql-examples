@@ -1,0 +1,24 @@
+#!/usr/bin/env node
+
+(async () => {
+
+  require('dotenv-safe').config();
+  const app = require('../app');
+  const http = require('http');
+
+  try {
+    await require('../db').connect();
+    console.log('Connected to DB!');
+  } catch (err) {
+    return console.log(err);
+  }
+
+  const port = process.env.PORT || '3000';
+
+  const server = http.createServer(app);
+
+  server.listen(port, () => {
+    console.log('Running at port ' + port);
+  })
+
+})()

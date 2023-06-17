@@ -5,7 +5,7 @@ async function connect() {
 
     const { Pool } = require('pg');
     const pool = new Pool({
-        connectionString: 'postgres://user:password@host:port/database'
+        connectionString: process.env.CONNECTION_STRING
     });
 
     //apenas testando a conexão
