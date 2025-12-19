@@ -6,19 +6,20 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "connect-pg-simple": "^6.2.1",
-    "cookie-parser": "~1.4.4",
+    "bcryptjs": "^3.0.3",
+    "connect-pg-simple": "^10.0.0",
+    "cookie-parser": "~1.4.7",
     "cors": "^2.8.5",
-    "debug": "~2.6.9",
-    "dotenv-safe": "^8.2.0",
-    "ejs": "~2.6.1",
-    "express": "~4.16.1",
-    "express-session": "^1.17.1",
-    "http-errors": "~1.6.3",
-    "morgan": "~1.9.1",
-    "passport": "^0.4.1",
+    "debug": "~4.4.3",
+    "dotenv-safe": "^9.1.0",
+    "ejs": "~3.1.10",
+    "express": "~5.2.1",
+    "express-session": "^1.18.2",
+    "http-errors": "~2.0.1",
+    "morgan": "~1.10.1",
+    "passport": "^0.7.0",
     "passport-local": "^1.0.0",
-    "pg": "^8.5.1"
+    "pg": "^8.16.3"
   }
 }
+    

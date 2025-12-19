@@ -8,17 +8,9 @@ async function connect() {
         rejectUnauthorized: false,
     }
     const pool = new pg.Pool({
-        connectionString: process.env.DATABASE_URL
-    });
-
-    /*const fs = require('fs');
-    const pool = new pg.Pool({
         connectionString: process.env.DATABASE_URL,
-        ssl: {
-            rejectUnauthorized: false,
-            ca: fs.readFileSync('./certs/ca-certificate.crt').toString()
-        }
-    });*/
+        ssl: false
+    });
 
     const client = await pool.connect();
 
