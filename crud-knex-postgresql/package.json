@@ -8,8 +8,8 @@
     "start": "tsx src/index.ts"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "LuizTools",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^25.9.1",
     "tsx": "^4.22.3",
